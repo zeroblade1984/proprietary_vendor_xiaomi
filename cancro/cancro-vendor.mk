@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,11 +26,10 @@ PRODUCT_PACKAGES += \
     libtime_genoff
 
 PRODUCT_PACKAGES += \
+    com.qualcomm.location \
     qcrilmsgtunnel \
     QuickBoot \
     shutdownlistener \
     TimeService
-
-#com.qualcomm.location
 
 $(call inherit-product, vendor/xiaomi/cancro/cancro-vendor-blobs.mk)
